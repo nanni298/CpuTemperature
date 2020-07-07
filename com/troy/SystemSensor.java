@@ -13,6 +13,11 @@ import com.profesorfalken.jsensors.model.sensors.Temperature;
 public class SystemSensor {
 
 	public static void main(String[] args) {
+
+	    System.out.println("************************************");
+            System.out.println("****  Cpu Temperatre By Troy.   ****");
+            System.out.println("************************************");
+
 	    Components components = JSensors.get.components(); 
 
 	    List<Cpu> cpus = components.cpus;
